@@ -18,6 +18,6 @@ node 'dev.puppetlabs.vm' {
 
   file { '/var/www/test/index.php':
     ensure  => file,
-    content => '<?php echo \'<p>Hello World</p>\'; ?> ',
+    content => '<?php echo \'<p>Hello World</p>\'; ?>',
   }
 }
