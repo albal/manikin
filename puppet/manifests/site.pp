@@ -1,13 +1,9 @@
 node 'dev.puppetlabs.vm' {
   # Configure mysql
-  class { 'mysql::server':
-    root_password => '8ZcJZFHsvo7fINZcAvi0' 
-  }
+  class { 'mysql::server':  root_password => '8ZcJZFHsvo7fINZcAvi0' }
 
   # Configure apache
-  class { 'apache':
-    default_vhost => false,
-  }
+  class { 'apache': default_vhost => false }
   include apache::mod::php
   apache::vhost { $::fqdn:
     port    => '80',
@@ -24,5 +20,4 @@ node 'dev.puppetlabs.vm' {
     ensure  => file,
     content => '<?php echo \'<p>Hello World</p>\'; ?> ',
   }
-
 }
