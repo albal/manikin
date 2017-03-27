@@ -1,0 +1,15 @@
+{
+  "name": "tsew-webserver",
+  "version": "0.1.0",
+  "author": "tsew",
+  "summary": "Setup a basic webserver with php and mysql\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dapache, php and mysql",
+  "license": "Apache-2.0",
+  "source": "",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
