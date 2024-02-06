@@ -226,7 +226,7 @@ GEM
     method_source (0.8.2)
     mime-types (2.99.3)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.1)
+    mini_portile2 (2.8.5)
     minitar (0.9)
     minitest (5.17.0)
     mocha (1.2.1)
@@ -242,8 +242,8 @@ GEM
     net-ssh (4.2.0)
     net-telnet (0.1.1)
     netrc (0.11.0)
-    nokogiri (1.14.3)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.16.2)
+      mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     notiffany (0.1.1)
       nenv (~> 0.1)
@@ -301,7 +301,7 @@ GEM
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
-    racc (1.6.2)
+    racc (1.7.3)
     rainbow (2.2.2)
       rake
     rake (13.0.6)
