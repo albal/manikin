@@ -1,7 +1,0 @@
----
-classes:
-  foo-bar:
-    parameters: []
-    resources:
-      notify:
-        - title: hello
